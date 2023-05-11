@@ -7,7 +7,7 @@ import json
 import secrets
 import numpy as np
 import multiprocessing
-from pypresence import Presence   #<--- As soon as I uncomment the rich presence, it sometimes doesn't want to launch :(
+from pypresence import Presence
 from numba import jit, cuda
 from blessed import Terminal
 
